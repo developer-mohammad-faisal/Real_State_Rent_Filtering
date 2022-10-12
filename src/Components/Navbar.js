@@ -1,12 +1,11 @@
 import React, { Fragment } from 'react';
-import Home from './Home/Home';
 
-const App = () => {
+const Navbar = () => {
   return (
     <Fragment>
-        <Home/>
+        <h1>hello navbar</h1>
     </Fragment>
   );
 };
 
-export default App;
+export default Navbar;
